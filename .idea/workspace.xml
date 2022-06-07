@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7e1ece5-f8f3-4f62-a77e-0e91babf3616" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/styles/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Candidat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/CategorieDeCompetence.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Competence.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Contrat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Entreprise.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Experience.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Mission.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/NiveauDeCompetence.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/ProfilCompetence.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Utilisateur.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,23 +188,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/wamp64/www/DevAZ/Sites/CEFIM/CompetApp/assets/styles",
+    "last_opened_file_path": "C:/Users/R9-5900X/Desktop/Projet Gestion Competence/www/CompetApp",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
-    ]
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\DevAZ\Sites\CEFIM\CompetApp\assets\styles" />
-      <recent name="C:\wamp64\www\DevAZ\Sites\CEFIM\CompetApp" />
-      <recent name="C:\Users\R9-5900X\Desktop\Projet Gestion Competence\www\CompetApp" />
-    </key>
-  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
