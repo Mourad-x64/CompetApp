@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7e1ece5-f8f3-4f62-a77e-0e91babf3616" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/styles/bootstrap.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,13 +180,19 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/wamp64/www/DevAZ/Sites/CEFIM/CompetApp",
+    "last_opened_file_path": "C:/wamp64/www/DevAZ/Sites/CEFIM/CompetApp/assets/styles",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\DevAZ\Sites\CEFIM\CompetApp\assets\styles" />
       <recent name="C:\wamp64\www\DevAZ\Sites\CEFIM\CompetApp" />
       <recent name="C:\Users\R9-5900X\Desktop\Projet Gestion Competence\www\CompetApp" />
     </key>
@@ -208,7 +216,7 @@
       <workItem from="1654672349433" duration="8568000" />
       <workItem from="1654716677060" duration="576000" />
       <workItem from="1654758707871" duration="3077000" />
-      <workItem from="1654766593933" duration="1218000" />
+      <workItem from="1654766593933" duration="2354000" />
     </task>
     <servers />
   </component>
