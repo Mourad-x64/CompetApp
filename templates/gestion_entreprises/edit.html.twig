@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit Entreprises{% endblock %}
+
+{% block body %}
+    <h1>Edit Entreprises</h1>
+
+    {{ include('gestion_entreprises/_form.html.twig', {'button_label': 'Update'}) }}
+
+    <a href="{{ path('app_gestion_entreprises_index') }}">back to list</a>
+
+    {{ include('gestion_entreprises/_delete_form.html.twig') }}
+{% endblock %}

@@ -28,7 +28,7 @@ class Profils
     /**
      * Many profils have one utilisateur. This is the owning side.
      * @ORM\ManyToOne(targetEntity="Utilisateurs", inversedBy="profils")
-     * @ORM\JoinColumn(name="id_utilisateur", nullable=false, referencedColumnName="id")
+     * @ORM\JoinColumn(name="id_utilisateur", nullable=true, referencedColumnName="id")
      */
     private $utilisateur;
 
@@ -113,6 +113,10 @@ class Profils
         return $this->id;
     }
 
+    public function __toString(){
+        return $this->fonction;
+    }
+
     public function getFonction(): ?string
     {
         return $this->fonction;
@@ -125,6 +129,7 @@ class Profils
         return $this;
     }
 
+       
     public function getNom(): ?string
     {
         return $this->nom;
