@@ -1,4 +1,3 @@
-.idea/workspace.xml
 ###> symfony/framework-bundle ###
 /.env.local.php
 /.env.*.local
@@ -25,4 +24,6 @@ npm-debug.log
 yarn-error.log
 ###< symfony/webpack-encore-bundle ###
 
+###> ignore phpStorm config files ###
 .idea/
+###> ignore phpStorm config files ###
