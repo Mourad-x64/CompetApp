@@ -1,0 +1,38 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Documents{% endblock %}
+
+{% block body %}
+    <h1>Documents</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ document.id }}</td>
+            </tr>
+            <tr>
+                <th>Type_contenu</th>
+                <td>{{ document.typeContenu }}</td>
+            </tr>
+            <tr>
+                <th>Ext</th>
+                <td>{{ document.ext }}</td>
+            </tr>
+            <tr>
+                <th>Nom</th>
+                <td>{{ document.nom }}</td>
+            </tr>
+            <tr>
+                <th>Type_fichier</th>
+                <td>{{ document.typeFichier }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_gestion_documents_index') }}">back to list</a>
+
+    <a href="{{ path('app_gestion_documents_edit', {'id': document.id}) }}">edit</a>
+
+    {{ include('gestion_documents/_delete_form.html.twig') }}
+{% endblock %}

@@ -11,3 +11,4 @@ import './styles/bootstrap.min.css';
 
 // start the Stimulus application
 import './bootstrap';
+
