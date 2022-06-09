@@ -2,26 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7e1ece5-f8f3-4f62-a77e-0e91babf3616" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/migrations/Version20220608193907.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Categories.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Competences.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Documents.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Entreprises.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Experiences.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/HistoriqueProfil.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/ProfilCompetences.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Profils.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Utilisateurs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/CategoriesRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/CompetencesRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/DocumentsRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/EntreprisesRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/ExperiencesRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/HistoriqueProfilRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/ProfilCompetencesRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/ProfilsRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/UtilisateursRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -221,6 +201,7 @@
       <workItem from="1654586374008" duration="8957000" />
       <workItem from="1654672349433" duration="8568000" />
       <workItem from="1654716677060" duration="576000" />
+      <workItem from="1654758707871" duration="3077000" />
     </task>
     <servers />
   </component>
