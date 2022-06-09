@@ -16,6 +16,11 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="abdoul" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -175,14 +180,30 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+<<<<<<<<< Temporary merge branch 1
+    "last_opened_file_path": "C:/wamp64/www/DevAZ/Sites/CEFIM/CompetApp/assets/styles",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+=========
     "last_opened_file_path": "C:/Users/R9-5900X/Desktop/Projet Gestion Competence/www/CompetApp/assets/styles",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+>>>>>>>>> Temporary merge branch 2
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<<<< Temporary merge branch 1
+      <recent name="C:\wamp64\www\DevAZ\Sites\CEFIM\CompetApp\assets\styles" />
+      <recent name="C:\wamp64\www\DevAZ\Sites\CEFIM\CompetApp" />
+=========
       <recent name="C:\Users\R9-5900X\Desktop\Projet Gestion Competence\www\CompetApp\assets\styles" />
+>>>>>>>>> Temporary merge branch 2
       <recent name="C:\Users\R9-5900X\Desktop\Projet Gestion Competence\www\CompetApp" />
     </key>
   </component>
@@ -204,6 +225,8 @@
       <workItem from="1654586374008" duration="8957000" />
       <workItem from="1654672349433" duration="8568000" />
       <workItem from="1654716677060" duration="576000" />
+      <workItem from="1654758707871" duration="3077000" />
+      <workItem from="1654766593933" duration="2354000" />
     </task>
     <servers />
   </component>
