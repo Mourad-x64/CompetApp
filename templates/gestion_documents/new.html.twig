@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Documents{% endblock %}
+
+{% block body %}
+    <div class="container">
+    <h1>Create new Documents</h1>
+
+    {{ include('gestion_documents/_form.html.twig') }}
+
+    <a href="{{ path('app_gestion_documents_index') }}">back to list</a>
+    </div>
+{% endblock %}

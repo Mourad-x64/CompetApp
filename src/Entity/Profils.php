@@ -113,6 +113,10 @@ class Profils
         return $this->id;
     }
 
+    public function __toString(){
+        return $this->fonction;
+    }
+
     public function getFonction(): ?string
     {
         return $this->fonction;
@@ -125,6 +129,7 @@ class Profils
         return $this;
     }
 
+       
     public function getNom(): ?string
     {
         return $this->nom;

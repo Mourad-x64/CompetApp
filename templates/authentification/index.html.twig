@@ -3,18 +3,23 @@
 {% block title %}Hello AuthentificationController!{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
+<div class="container" style="width: 500px">
+    <form data-bitwarden-watching="1">
+        <fieldset>
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+            <div class="form-group">
+                <label for="exampleInputEmail1" class="form-label mt-4">Login</label>
+                <input  type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Login">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1" class="form-label mt-4">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary">Submit</button>
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ 'C:/Users/R9-5900X/Desktop/Projet Gestion Competence/www/CompetApp/src/Controller/AuthentificationController.php'|file_link(0) }}">src/Controller/AuthentificationController.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'C:/Users/R9-5900X/Desktop/Projet Gestion Competence/www/CompetApp/templates/authentification/index.html.twig'|file_link(0) }}">templates/authentification/index.html.twig</a></code></li>
-    </ul>
+        </fieldset>
+    </form>
 </div>
 {% endblock %}

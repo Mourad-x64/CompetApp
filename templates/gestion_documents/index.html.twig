@@ -1,0 +1,41 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Documents index{% endblock %}
+
+{% block body %}
+    <h1>Documents index</h1>
+
+    <table class="table table-hover">
+        <thead>
+            <tr class="table-dark">
+                <th>Id</th>
+                <th>Type_contenu</th>
+                <th>Ext</th>
+                <th>Nom</th>
+                <th>Type_fichier</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for document in documents %}
+            <tr>
+                <td>{{ document.id }}</td>
+                <td>{{ document.typeContenu }}</td>
+                <td>{{ document.ext }}</td>
+                <td>{{ document.nom }}</td>
+                <td>{{ document.typeFichier }}</td>
+                <td>
+                    <a href="{{ path('app_gestion_documents_show', {'id': document.id}) }}">Afficher</a>
+                    <a href="{{ path('app_gestion_documents_edit', {'id': document.id}) }}">Modifier</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="6">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_gestion_documents_new') }}">ajouter un document</a>
+{% endblock %}
