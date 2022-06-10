@@ -9,12 +9,15 @@
 </style>
 
 <div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
-
-    This friendly message is coming from:
+    <h1>Catégorie de compétence</h1>
     <ul>
-        <li>Your controller at <code><a href="{{ 'C:/wamp64/www/DevAZ/Sites/CEFIM/CompetApp/src/Controller/CategoriesController.php'|file_link(0) }}">src/Controller/CategoriesController.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'C:/wamp64/www/DevAZ/Sites/CEFIM/CompetApp/templates/categories/index.html.twig'|file_link(0) }}">templates/categories/index.html.twig</a></code></li>
+        <li>Nom de la catégorie
+            <button type="button" class="btn btn-outline-warning">Modifier</button>
+            <button type="button" class="btn btn-outline-danger">Supprimer</button>
+        </li>
     </ul>
+    <button type="button" class="btn btn-outline-success">Ajouter une nouvelle catégorie</button>
 </div>
+
+
 {% endblock %}

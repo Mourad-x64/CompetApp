@@ -28,6 +28,12 @@ security:
 
 when@test:
     security:
+
+        role_hierarchy:
+            ROLE_COLLABORATEUR: ROLE_USER
+            ROLE_COMMERCIAL: ROLE_USER
+            ROLE_ADMIN: [ROLE_USER, ROLE_COMMERCIAL, ROLE_COLLABORATEUR]
+
         password_hashers:
             # By default, password hashers are resource intensive and take time. This is
             # important to generate secure password hashes. In tests however, secure hashes

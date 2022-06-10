@@ -28,7 +28,7 @@ class Profils
     /**
      * Many profils have one utilisateur. This is the owning side.
      * @ORM\ManyToOne(targetEntity="Utilisateurs", inversedBy="profils")
-     * @ORM\JoinColumn(name="id_utilisateur", nullable=false, referencedColumnName="id")
+     * @ORM\JoinColumn(name="id_utilisateur", nullable=true, referencedColumnName="id")
      */
     private $utilisateur;
 

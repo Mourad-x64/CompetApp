@@ -1,3 +1,13 @@
 body {
     background-color: lightgray;
 }
+
+ul.navbar-nav.me-auto {
+    width: 10rem;
+    margin: 0rem;
+    margin-left: 7rem;
+}
+
+a.nav-link {
+    width: 12rem;
+}

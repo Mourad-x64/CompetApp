@@ -47,7 +47,7 @@ class Experiences
     private $date_debut;
 
     /**
-     * @ORM\Column(type="date")
+     * @ORM\Column(type="date",nullable=true)
      */
     private $date_fin;
 

@@ -17,4 +17,15 @@ class CategoriesController extends AbstractController
             'controller_name' => 'CategoriesController',
         ]);
     }
+
+
+    /**
+     * @Route("/nouvelleCategorie", name="app_nouvelleCategorie")
+     */
+    public function nouvelleCategorie(): Response
+    {
+        return $this->render('categories/nouvelleCategorie.html.twig', [
+            'controller_name' => 'CategoriesController',
+        ]);
+    }
 }

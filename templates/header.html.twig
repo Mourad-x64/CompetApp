@@ -1,46 +1,97 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">CompetApp</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarColor01">
             <ul class="navbar-nav me-auto">
+
+                {% if is_granted("ROLE_ADMIN") %}
+
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Home
+                    <a class="nav-link active" href="#">ACCEUIL
+                        <span class="visually-hidden">(current)</span>
+                    </a>
+                </li>
+    <li class="nav-item" id="AdminProfil">
+        <a class="nav-link" href="#">Mon profil</a>
+    </li>
+    <li class="nav-item" id="GererNomenc">
+        <a class="nav-link" href="#">Gérer nomenclature</a>
+    </li>
+    <li class="nav-item" id="GererDocs">
+        <a class="nav-link" href="#">Gérer les documents</a>
+    </li>
+    <li class="nav-item" id="GererUtil">
+        <a class="nav-link" href="#">Gérer les utilisateurs</a>
+    </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Me deconnecter</a>
+                </li>
+
+{% elseif is_granted("ROLE_COLLABORATEUR") %}
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">ACCEUIL
                         <span class="visually-hidden">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Mon profil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#">Mes documents</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Me deconnecter</a>
+                </li>
+
+                {% elseif is_granted("ROLE_COMMERCIAL") %}
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">ACCEUIL
+                        <span class="visually-hidden">(current)</span>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#">Mon profil</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Separated link</a>
-                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Profil collaborateur</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Profil candidat</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Me deconnecter</a>
+                </li>
+
+
+                {% else %}
+    <li class="nav-item">
+                    <a class="nav-link active" href="#">ACCEUIL
+                        <span class="visually-hidden">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">A PROPOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT</a>
                 </li>
             </ul>
             <form class="d-flex">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Login</a>
+                        <a class="nav-link" href="#">Créer un compte</a>
                     </li>
+{% endif %}
                 </ul>
-                <input class="form-control me-sm-2" type="text" placeholder="Search">
-                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
     </div>
 </nav>
+
+

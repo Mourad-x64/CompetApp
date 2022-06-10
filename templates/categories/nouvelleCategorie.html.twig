@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello CategoriesController!{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="example-wrapper">
+    <h1>Nouvelle catégorie de compétence</h1>
+
+    <div class="form-group row">
+        <label for="Nom" class="col-sm-2 col-form-label">Nom</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control-plaintext" id="Nom" value="" placeholder="Veuillez saisir ici le nom de catégorie">
+            <button type="button" class="btn btn-outline-info">Envoyer</button>
+        </div>
+    </div>
+    <button type="button" class="btn btn-outline-dark">Retour</button>
+
+</div>
+
+
+{% endblock %}
